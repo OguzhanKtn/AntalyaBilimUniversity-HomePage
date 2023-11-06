@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 function Home() {
   
@@ -50,42 +49,24 @@ function Home() {
       </div>
 
 <div className="container">
-<div className="container">
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown" id="dropPosition">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    id="dropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <i class="bi bi-translate" style={{marginRight:"10px"}}></i>
-                    <i className="bi bi-moon" style={{marginRight:"10px"}}></i>
-                    <strong className="btn" style={{backgroundColor:"rgb(4, 184, 208)"}}>
-                     <span style={{color:"white"}}>GİRİŞ YAP</span>  
-                       </strong>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item btn">
-                        <i class="bi bi-box-arrow-in-right mr-1"></i>
-                        Log in
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item btn">
-                        <i class="bi bi-sign-intersection mr-1"></i>
-                        Sign in
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-        </nav>
-      </div>
-
+        <div className="navbar">
+          <div className="d-flex" id="buttonLogo">
+          <div className="d-flex" id="translateMoon">
+              <i className="bi bi-translate" style={{marginRight:"10px"}}></i>
+              <i className="bi bi-moon" style={{marginRight:"10px"}}></i>
+            </div>
+            <div className="dropdown">
+              <button className="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">GİRİŞ YAP</button>
+              <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Action</a></li>
+                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+               </ul>
+            </div>
+          </div>
+          
+        </div>
+      
       <div className="container resim2">
         <h4 id="resim2text">
           <strong>Hayallerinizdeki Programları Bulun</strong>
