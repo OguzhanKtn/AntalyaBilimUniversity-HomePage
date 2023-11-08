@@ -1,3 +1,4 @@
 # All rights reserved by Antalya Bilim University
 
-![Ekran görüntüsü 2023-10-31 230134](https://github.com/OguzhanKtn/AntalyaBilimUniversity-HomePage/assets/81297977/91a59b4e-a11b-446b-9a93-63be0caa29b4)
+![Ekran görüntüsü 2023-11-08 223309](https://github.com/OguzhanKtn/AntalyaBilimUniversity-HomePage/assets/81297977/8367da88-aae3-498e-89e7-1c4b3bb25829)
+
