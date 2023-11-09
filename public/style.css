@@ -148,7 +148,10 @@
 }
 
 #inputGroupSelect01{
-    width: 100%;
+    margin:auto;
+    display: flex;
+    height: 50px;
+    width: 60%;
     border-radius: 6px;
     border: none;
 }

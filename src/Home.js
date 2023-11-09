@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div className="d-flex">
-        <div className="col-sm-6" id="menu">
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" id="menu">
           <div>
             <a href="/">
               <img className="resim" src="bilim.png"></img>
@@ -40,7 +40,7 @@ function Home() {
             </button>
           </div>
         </div>
-        <div id="home">
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" id="home">
           <div className="navbar">
             <div className="d-flex" id="buttonLogo">
               <div className="d-flex" id="translateMoon">
@@ -90,7 +90,7 @@ function Home() {
                 tarafından hazırlanan programlar arasından seçim yapın.
               </strong>
             </h6>
-            <select id="inputGroupSelect01">
+            <select className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" id="inputGroupSelect01">
               <option selected>Ne aramak istiyorsun ?</option>
               <option value="1">One</option>
               <option value="2">Two</option>
@@ -106,7 +106,7 @@ function Home() {
             <hr />
             <div className="container">
               <div className="row">
-                <div className="col-3">
+                <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                   <div className="circle1"></div>
                   <div>
                     <a role="button" className="circle1-text">
@@ -119,7 +119,7 @@ function Home() {
                   </div>
                 </div>
 
-                <div className="col-3">
+                <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                   <div className="circle2"></div>
                   <div>
                     <a role="button" className="circle2-text">
@@ -129,7 +129,7 @@ function Home() {
                     <i class="bi bi-arrow-right"></i>
                   </div>
                 </div>
-                <div className="col-3">
+                <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                   <div className="circle2"></div>
                   <div>
                     <a role="button" className="circle2-text">
@@ -139,7 +139,7 @@ function Home() {
                     <i class="bi bi-arrow-right"></i>
                   </div>
                 </div>
-                <div className="col-3">
+                <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                   <div className="circle2"></div>
                   <div>
                     <a role="button" className="circle2-text">
