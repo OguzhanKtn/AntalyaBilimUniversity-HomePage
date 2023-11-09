@@ -89,6 +89,7 @@
 
 #home{
     width: 70%;
+    margin-left: 300px;
 }
 
 #textArama{
@@ -255,7 +256,8 @@
     width: 250px;
     height: 700px;
     background-color: white;
-    margin-right: 30px;
+    margin-right: 150px;
+    position: fixed;
 }
 
 .arama,.etkinlik{
